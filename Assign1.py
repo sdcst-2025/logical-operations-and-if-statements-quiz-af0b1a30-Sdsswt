@@ -1,8 +1,8 @@
 #!python3
 
-x = input()
+x = input("enter a number ")
 print(x)
-exit()
+#exit()
 """
 Q1. 
 Modify line 3 so that the program asks the user to "Enter a number"
@@ -13,7 +13,7 @@ the exit() command and move on to the next question
 x = 38.4521
 x = round(x)
 print(x)
-exit()
+#exit()
 """
 Q2.
 Modify line 14 so that the value of x is rounded to 2 decimal places
@@ -23,7 +23,7 @@ the exit() command and move on to the next question
 
 
 x = 3.0
-x = x
+x = int(x)
 print( x * "hello")
 exit()
 
