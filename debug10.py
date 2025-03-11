@@ -23,5 +23,5 @@ elif x >= 3:
     print('only x is greater than or equal to 3')
 elif y >= 4:
     print('only y is greater than or equal to 4')
-else
+elif x and y < 3:
     print("Both numbers are less than 3")
